@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/admin/static/css/main.cf4982eb.chunk.css",
-    "main.js": "/admin/static/js/main.032c1b1f.chunk.js",
-    "main.js.map": "/admin/static/js/main.032c1b1f.chunk.js.map",
-    "runtime-main.js": "/admin/static/js/runtime-main.583b60c0.js",
-    "runtime-main.js.map": "/admin/static/js/runtime-main.583b60c0.js.map",
+    "main.css": "/admin/static/css/main.ae11354d.chunk.css",
+    "main.js": "/admin/static/js/main.9f719938.chunk.js",
+    "main.js.map": "/admin/static/js/main.9f719938.chunk.js.map",
+    "runtime-main.js": "/admin/static/js/runtime-main.eb40519a.js",
+    "runtime-main.js.map": "/admin/static/js/runtime-main.eb40519a.js.map",
     "static/css/2.3a30ecb3.chunk.css": "/admin/static/css/2.3a30ecb3.chunk.css",
-    "static/js/2.737e59ea.chunk.js": "/admin/static/js/2.737e59ea.chunk.js",
-    "static/js/2.737e59ea.chunk.js.map": "/admin/static/js/2.737e59ea.chunk.js.map",
-    "static/js/3.5024e83e.chunk.js": "/admin/static/js/3.5024e83e.chunk.js",
-    "static/js/3.5024e83e.chunk.js.map": "/admin/static/js/3.5024e83e.chunk.js.map",
+    "static/js/2.9fce3813.chunk.js": "/admin/static/js/2.9fce3813.chunk.js",
+    "static/js/2.9fce3813.chunk.js.map": "/admin/static/js/2.9fce3813.chunk.js.map",
+    "static/js/3.0c957e19.chunk.js": "/admin/static/js/3.0c957e19.chunk.js",
+    "static/js/3.0c957e19.chunk.js.map": "/admin/static/js/3.0c957e19.chunk.js.map",
     "index.html": "/admin/index.html",
     "static/css/2.3a30ecb3.chunk.css.map": "/admin/static/css/2.3a30ecb3.chunk.css.map",
-    "static/css/main.cf4982eb.chunk.css.map": "/admin/static/css/main.cf4982eb.chunk.css.map",
-    "static/js/2.737e59ea.chunk.js.LICENSE.txt": "/admin/static/js/2.737e59ea.chunk.js.LICENSE.txt",
+    "static/css/main.ae11354d.chunk.css.map": "/admin/static/css/main.ae11354d.chunk.css.map",
+    "static/js/2.9fce3813.chunk.js.LICENSE.txt": "/admin/static/js/2.9fce3813.chunk.js.LICENSE.txt",
     "static/media/LoginBtn.eae14814.svg": "/admin/static/media/LoginBtn.eae14814.svg",
     "static/media/LoginLogo.158e7baf.svg": "/admin/static/media/LoginLogo.158e7baf.svg",
     "static/media/logo.da22472f.svg": "/admin/static/media/logo.da22472f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.583b60c0.js",
+    "static/js/runtime-main.eb40519a.js",
     "static/css/2.3a30ecb3.chunk.css",
-    "static/js/2.737e59ea.chunk.js",
-    "static/css/main.cf4982eb.chunk.css",
-    "static/js/main.032c1b1f.chunk.js"
+    "static/js/2.9fce3813.chunk.js",
+    "static/css/main.ae11354d.chunk.css",
+    "static/js/main.9f719938.chunk.js"
   ]
 }
