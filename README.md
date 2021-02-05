@@ -22,7 +22,7 @@
 
 #### 확진자와 동선이 겹침을 알림
 확진자와 동선이 겹쳤을 때, 관리자는 접촉 의심자 리스트를 확인 후, 푸시알림을 전송할 수 있다.
-![](https://github.com/SWbpass/admin/blob/master/Notificaton.PNG?raw=true)
+![](https://github.com/SWbpass/admin/blob/master/Notification.PNG?raw=true)
 
 ## Getting Started
 ### Dependencies
