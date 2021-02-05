@@ -12,7 +12,7 @@ function VisitorsTable(props) {
                 <td>{visit.store.storeName}</td>
                 <td>{visit.visitor.name}</td>
                 <td>{moment(visit.entryTime).format('YYYY년 MM월 DD일 hh시 mm분')}</td>
-                <td>{moment(visit.entryTime).format('YYYY년 MM월 DD일 hh시 mm분')}</td>
+                <td>{moment(visit.exitTime).format('YYYY년 MM월 DD일 hh시 mm분')}</td>
             </tr>
         )
     }
