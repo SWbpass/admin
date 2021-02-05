@@ -1,0 +1,14 @@
+.searchCombo {
+  text-align: center;
+  display: flex;
+}
+.form-control{
+  width: 30%;
+}
+.btn btn-primary{
+  width: 15%;
+}
+.react-datetime-picker__wrapper{
+  width: 10%;
+
+}

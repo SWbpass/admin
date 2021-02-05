@@ -1,4 +1,9 @@
+import React from 'react';
+import 'moment/locale/ko';
+import moment from "moment"
+
 function VisitorsTable(props) {
+    moment.locale("ko")
 
     function tableContent(visit) {
         return (
@@ -6,8 +11,8 @@ function VisitorsTable(props) {
                 <th scope="row">{visit.id}</th>
                 <td>{visit.store.storeName}</td>
                 <td>{visit.visitor.name}</td>
-                <td>{visit.entryTime}</td>
-                <td>{visit.exitTime}</td>
+                <td>{moment(visit.entryTime).format('YYYY년 MM월 DD일 hh시 mm분')}</td>
+                <td>{moment(visit.entryTime).format('YYYY년 MM월 DD일 hh시 mm분')}</td>
             </tr>
         )
     }

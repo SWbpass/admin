@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {API_BASE_URL, setTokens} from "../authHttpMapper";
 import axios from "axios";
-import logo from "../Loginlogo.svg";
+import logo from "../LoginLogo.svg";
 
 function Login(props) {
 
@@ -33,7 +33,7 @@ function Login(props) {
             <img src={logo} alt={logo}/>
             <div className="form-group">
                 <input type="email" className="form-control" placeholder="아이디 입력" onChange={onChangeId} onKeyPress={onKeyPress}></input>
-                <input type="email" className="form-control" placeholder="비밀번호 입력" type='password' onChange={onChangePawword} onKeyPress={onKeyPress} ></input>
+                <input className="form-control" placeholder="비밀번호 입력" type='password' onChange={onChangePawword} onKeyPress={onKeyPress} ></input>
                 <button type="button" className="btn btn-primary btn-lg" disabled={id === '' || password === ''} onClick={signIn}>로그인</button>
             </div>
         </div>
