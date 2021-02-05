@@ -27,14 +27,18 @@ function Main(props) {
     }, [])
 
     useEffect(() => {
-        if (isLogin)
-            getHttp("/visits")
-                .then(res => {
-                    setVisits(res.data.visitLogs)
-                }).catch(error => {
-                alert(error.response)
-            });
+ //       setInterval(()=>{
+            if (isLogin)
+                getHttp("/visits")
+                    .then(res => {
+                        setVisits(res.data.visitLogs)
+                    }).catch(error => {
+                    alert(error.response)
+                });
+ //       },2000);
     }, [isLogin])
+
+
 
     function qsParser() {
         let timezoneOffset = new Date().getTimezoneOffset() * 60000;
