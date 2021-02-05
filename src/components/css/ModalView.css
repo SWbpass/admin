@@ -1,0 +1,40 @@
+.views {
+  text-align: left;
+}
+.time{
+  font-family: NotoSansCJKkr;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--brownish-grey);
+  border-color: #0f84f7;
+}
+.content{
+  object-fit: contain;
+  font-family: NotoSansCJKkr;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--brownish-grey);
+}
+.addr{
+  max-width: 130px;
+}
+h5{
+  color: #0f84f7;
+  object-fit: contain;
+  font-family: NotoSansCJKkr;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}

@@ -85,10 +85,10 @@ function Main(props) {
         <div>
             <h1 align="center" className="subject">출입자 리스트</h1>
             <div class="searchCombo">
-                <input className="form-control" placeholder="방문장소명" onChange={onChangeStore}></input>
-                <input className="form-control" placeholder="방문자 이름" onChange={onChangeVisitor}></input>
+                <input className="form-control input" placeholder="방문장소명" onChange={onChangeStore}></input>
+                <input className="form-control input" placeholder="방문자 이름" onChange={onChangeVisitor}></input>
                 <DateTimePicker class="timepicker" onChange={onChange} value={date} disableClock={true}/>
-                <button type="button" className="btn btn-primary" onClick={search}>조회하기</button>
+                <button type="button" className="btn btn-primary main" onClick={search}>조회하기</button>
             </div>
             <div className="table">
                 <VisitorsTable visits={visits}/>
