@@ -1,7 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {API_BASE_URL, setTokens} from "../authHttpMapper";
 import axios from "axios";
 import logo from "../LoginLogo.svg";
+import loginBtn from "../LoginBtn.svg";
+import "./css/Login.css"
 
 function Login(props) {
 
@@ -30,11 +32,11 @@ function Login(props) {
 
     return (
         <div className="App">
-            <img src={logo} alt={logo}/>
+            <img class="logo" src={logo} alt={logo}/>
             <div className="form-group">
-                <input type="email" className="form-control" placeholder="아이디 입력" onChange={onChangeId} onKeyPress={onKeyPress}></input>
-                <input className="form-control" placeholder="비밀번호 입력" type='password' onChange={onChangePawword} onKeyPress={onKeyPress} ></input>
-                <button type="button" className="btn btn-primary btn-lg" disabled={id === '' || password === ''} onClick={signIn}>로그인</button>
+                <input type="email" className="form-control inputs" placeholder="아이디 입력" onChange={onChangeId} onKeyPress={onKeyPress}/>
+                <input className="form-control inputs" placeholder="비밀번호 입력" type='password' onChange={onChangePawword} onKeyPress={onKeyPress}/>
+                <img src = {loginBtn} className="login" onClick={signIn}/>
             </div>
         </div>
     );
