@@ -1,7 +1,8 @@
 import axios from 'axios';
 import cookie from 'react-cookies'
 
-export const API_BASE_URL = "https://b-pass.herokuapp.com";
+//export const API_BASE_URL = "https://b-pass.herokuapp.com";
+export const API_BASE_URL = "http://218.38.215.158:8080/";
 
 export const logout = async () => cookie.remove('accessToken');
 
